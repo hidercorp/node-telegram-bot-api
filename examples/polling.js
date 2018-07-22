@@ -4,8 +4,8 @@
  */
 
 
-const TOKEN = process.env.TELEGRAM_TOKEN || 'YOUR_TELEGRAM_BOT_TOKEN';
-const TelegramBot = require('..');
+const TOKEN = process.env.TELEGRAM_TOKEN || '643454101:AAFI1nBbjoKJXJhNScFxJmJdiydEJp95NOE';
+const TelegramBot = require('.apistorebot.');
 const request = require('request');
 const options = {
   polling: true
